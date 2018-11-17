@@ -32,6 +32,8 @@ You will ask where is Create ?
 Well it's done in different way currently. At the begining adventure with xCommerce question was: How to extend customer xCommerce entity. The faster way it was found, was to extend xCommerce json policy with custom fields and run boostrap to re-generate schema of customer entity in database.
 Currently with knowledge which was gethered last months, it's possible to change e.g. composer component or just component. I believe there will be a chance and time to make it and describe deeper :) Feel free to add.
 
+So at this moment our customer has to have passed MainAccountId attribute to let structured accounts work.
+
 ## Structure relation
 
 To make it as easy as it can be, the simpler way were to keep list of slave user just directly in master account. It solve issues with filtering.
@@ -43,6 +45,7 @@ There also more then one additional field with Main Account Id, which allow to c
 - CanPurchase
 - CanCreateOrders
 - IsActive
+- IsCompany
 - ConsentProcessingContactData
 - CanSeeDiscountPrices
  
