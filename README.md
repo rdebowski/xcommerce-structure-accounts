@@ -30,7 +30,7 @@ Basically this plugin contains custom API with the methods you can use:
 You will ask where is Create ?
 
 Well it's done in different way currently. At the begining adventure with xCommerce question was: How to extend customer xCommerce entity. The faster way it was found, was to extend xCommerce json policy with custom fields and run boostrap to re-generate schema of customer entity in database.
-Currently with knowledge which was gethered last months, it's possible to change e.g. composer component or just component. I believe there will be a chance and time to make it :) Feel free to add.
+Currently with knowledge which was gethered last months, it's possible to change e.g. composer component or just component. I believe there will be a chance and time to make it and describe deeper :) Feel free to add.
 
 ## Structure relation
 
@@ -46,6 +46,6 @@ There also more then one additional field with Main Account Id, which allow to c
 - ConsentProcessingContactData
 - CanSeeDiscountPrices
  
- There were prepared, to extend behaviors of account. I was wondering should I keep it for you or remove it, then I ask myselg but why not show them? It's better to show some more exmamples then less. So I keep it with faith it will help someone in her/his needs.
+ There were prepared, to extend behaviors of an account. I was wondering should I keep it for you or remove it, then I ask myself but why not show them? It's better to show some more exmamples then less. So I keep it with faith it will help someone in her/his needs.
 
- 
+
